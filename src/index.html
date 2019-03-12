@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-language" content="en" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web component starter project</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 10px;
+        font-family: sans-serif;
+        line-height: 1.5;
+    }
+
+    .component-grid {
+        display: grid;
+        gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+</style>
+<script>
+    if(!window.customElements){
+        document.write('<!--');
+    }
+</script>
+<script src="./vendor/custom-elements-es5-adapter.js"></script>
+<!-- !DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKER -->
+</head>
+<body>
+    <main>
+    <div class="component-grid">
+           <placeholder-view message="first placeholder"></placeholder-view>
+           <test-slot-view>
+               <h4>Test slot view</h4>
+               <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+               </p>
+           </test-slot-view>
+    </div>
+</main>
+<script src='./vendor/webcomponents-loader.js'></script>
+</body>
+</html>

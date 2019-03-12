@@ -1,0 +1,36 @@
+{
+  "name": "litelement-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack-dev-server": "webpack-dev-server --history-api-fallback",
+    "dev": "npm run webpack-dev-server -- --env.mode development",
+    "prod": "npx webpack --env.mode production"
+  },
+  "keywords": [
+    "LitElement",
+    "TypeScript"
+  ],
+  "author": "William Tulloch",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^2.0.0",
+    "copy-webpack-plugin": "^5.0.0",
+    "css-loader": "^2.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "lit-element": "^2.0.1",
+    "tslib": "^1.9.3"
+  }
+}
