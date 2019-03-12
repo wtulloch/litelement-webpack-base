@@ -1,12 +1,12 @@
 {
   "name": "litelement-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Base project for working with LitElement",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-dev-server": "webpack-dev-server --history-api-fallback",
-    "dev": "npm run webpack-dev-server -- --env.mode development",
+    "dev": "npm run webpack-dev-server --  --env.mode development",
     "prod": "npx webpack --env.mode production"
   },
   "keywords": [
@@ -14,7 +14,7 @@
     "TypeScript"
   ],
   "author": "William Tulloch",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "clean-webpack-plugin": "^2.0.0",
     "copy-webpack-plugin": "^5.0.0",
