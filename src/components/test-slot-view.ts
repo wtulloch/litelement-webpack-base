@@ -9,6 +9,7 @@ export class TestSlotView extends LitElement {
                 display: inline-block;
                 position: relative;
                 padding: 5px;
+                border: 1px black solid;
             }
         `;
     }
@@ -35,3 +36,4 @@ export class TestSlotView extends LitElement {
     }
 
 }
+

@@ -28,7 +28,8 @@ export class PlaceholderView extends LitElement {
     // the following will render the component directly into the light dom.
     createRenderRoot()
     {
-        return this;
+       return this;
+
     }
 
     connectedCallback(){
