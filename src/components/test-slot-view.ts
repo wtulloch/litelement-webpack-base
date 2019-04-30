@@ -1,6 +1,6 @@
 import { customElement, LitElement, CSSResult, css, TemplateResult, html } from "lit-element";
 
-@customElement('test-slot-view')
+@customElement('testslot-view')
 export class TestSlotView extends LitElement {
 
     static get styles(): CSSResult {

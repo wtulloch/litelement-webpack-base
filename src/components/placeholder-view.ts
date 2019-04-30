@@ -13,6 +13,7 @@ export class PlaceholderView extends LitElement {
                 :host {
                     padding: 5px;
                     border: 1px black solid;
+                    display: inline-block;
                 }
                 .altText {
                     color: gray;
@@ -28,7 +29,8 @@ export class PlaceholderView extends LitElement {
     // the following will render the component directly into the light dom.
     createRenderRoot()
     {
-       return this;
+        
+        return this;
 
     }
 
