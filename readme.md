@@ -5,8 +5,8 @@ This is a template project that provides a basic project set-up for working with
 The structure is focussed on developing an application rather than a single web component but should be easy enough to adapt for single component development. Two simple components have been included just to prove it works.
 
 Key libraries used are:
-* LitElement 2.0.1
-* TypeScript 3.3.3
+* LitElement 2.2.1
+* TypeScript 3.5.3
 * webpack 4.29.6
 * @open-wc/demoing-storybook: 0.2.2 
 
@@ -28,7 +28,10 @@ This template project was based on Marcus Hellberg's [Creating a LitElement proj
 
 [storybook](https://storybook.js.org)
 
+## Change Log
+### 2019-08-22
 
+* Updated to lit-element 2.2.1 and TypeScript 3.5.3
 
 
 
