@@ -14,7 +14,7 @@ Key libraries used are:
 
 Up front, the project structure is  not meant to be prescriptive but purely a starting point. Feel free to adapt and change as suits you.
 
-Once you have cloned or copied the project run from the command line ```npm install``` and then ```npm run dev``` to verify that it is all working. If you have cloned the project run ```git remote rm destination``` to remove the remote destination.
+Once you have cloned or copied the project run from the command line ```npm install``` and then ```npm run dev``` to verify that it is all working. If you have cloned the project run ```git remote rm origin``` to remove the remote origin.
 
 I have also included the open-wc implementation of Storybook to provide a design system. For more information on open-wc and Storybook see the links in references.
 
